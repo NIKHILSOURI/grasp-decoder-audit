@@ -33,3 +33,4 @@ testpaths = ["tests"]
 "scripts/make_tables.py" = ["E501"]  # LaTeX/Markdown table rows
 "scripts/check_paper_numbers.py" = ["E501"]
 "scripts/round3/*.py" = ["E501"]
+"scripts/round4/*.py" = ["E501"]
