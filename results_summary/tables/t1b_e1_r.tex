@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Pearson $r$ for the same runs (force: columns 2--5; hand position: 6--9). Compare with $R^2$ in Table~\ref{tab:e1}.}
+\label{tab:e1r}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lcccccccc}
+\toprule
+Decoder & Shuffled$^\dagger$ & Trial & Series & Subject & Shuffled$^\dagger$ & Trial & Series & Subject \\
+\midrule
+No-EEG template & 0.73 & 0.73 & 0.72 & 0.62 & 0.89 & 0.89 & 0.88 & 0.78 \\
+Ridge & 0.59 & 0.55 & 0.52 & 0.34 & 0.62 & 0.59 & 0.57 & 0.36 \\
+MLP & 0.72 & 0.26 & 0.24 & 0.12 & 0.65 & 0.41 & 0.39 & 0.26 \\
+Riemannian & 0.62 & 0.44 & 0.41 & 0.28 & 0.65 & 0.56 & 0.55 & 0.39 \\
+EEGNet & 0.49 & 0.41 & 0.31 & 0.24 & 0.66 & 0.62 & 0.58 & 0.40 \\
+ForceMap-style & 0.39 & 0.23 & 0.20 & 0.19 & -- & -- & -- & -- \\
+\bottomrule
+\end{tabular}
+\end{table}

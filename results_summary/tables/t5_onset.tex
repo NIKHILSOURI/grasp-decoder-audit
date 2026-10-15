@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering
+\caption{Causal grasp-onset detection, threshold chosen on validation data for $\leq$1 false alarm per minute. Lead: first detection relative to hand start (negative = before movement). Cue slope: regression of detection latency on reaction time (1 = tracks movement, 0 = tracks the LED cue). The cue timer fires 100 ms after LED-on without any EEG.}
+\label{tab:onset}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lllcccccc}
+\toprule
+Detector & Channels & Split & AUC & Det. rate & Lead (ms) & Lat. LED (ms) & FA/min & Cue slope \\
+\midrule
+LDA & all & Subject & 0.71 & 0.08 & -16 & 376 & 1.20 & 0.30 \\
+LDA & all & Trial & 0.83 & 0.19 & -50 & 353 & 1.19 & 0.35 \\
+LDA & no occ. & Subject & 0.71 & 0.08 & -15 & 415 & 1.28 & 0.44 \\
+LDA & no occ. & Trial & 0.82 & 0.21 & -38 & 355 & 1.64 & 0.57 \\
+Riemannian & all & Subject & 0.68 & 0.13 & -186 & 254 & 7.64 & 0.35 \\
+Riemannian & all & Trial & 0.78 & 0.29 & -113 & 303 & 3.02 & 0.20 \\
+Riemannian & no occ. & Subject & 0.68 & 0.11 & -151 & 391 & 5.02 & 0.21 \\
+Riemannian & no occ. & Trial & 0.77 & 0.19 & -87 & 326 & 1.99 & 0.29 \\
+\midrule
+Cue timer (no EEG) & -- & -- & -- & 1.00 & -315 & 100 & 0 & 0 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,4 @@
+name: force
+dataset: force
+units: N
+description: "grip force (FZ1+FZ2)/2, constant-surface (weight) series only"

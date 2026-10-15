@@ -1,0 +1,5 @@
+# Does EEG add anything beyond the no-EEG template? Template + EEG decoder trained on the residual.
+name: e7_residual
+datasets: [force, kin]
+models: [ridge, mlp]
+schemes: [trialwise, subjectwise]

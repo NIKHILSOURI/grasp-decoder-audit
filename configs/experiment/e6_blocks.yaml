@@ -1,0 +1,7 @@
+# Mechanism: blocked CV. Contiguous blocks of B seconds within each trial go to train/val/test (7:2:1).
+# B = 0.05 s reproduces the shuffled split; B >= trial length (~7-10 s) approaches the trial-wise split.
+name: e6_blocks
+datasets: [force, kin]
+models: [ridge, riemann, mlp]
+blocks: [0.05, 0.25, 0.5, 1, 2, 4, 8]
+n_repeats: 1

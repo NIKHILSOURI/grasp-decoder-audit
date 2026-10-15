@@ -1,0 +1,5 @@
+# RQ3: empirical chance levels from E1 test predictions (train once, permute at test time)
+name: e3_chance
+schemes: [trialwise, subjectwise]
+n_perm: 100
+e1_dir: null        # null = latest completed e1_splits run

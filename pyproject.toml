@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gaudit"
+version = "0.1.0"
+description = "Is your grasp decoder cheating? A leakage-controlled re-evaluation of EEG grasp decoding on WAY-EEG-GAL"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy", "scipy", "pandas", "scikit-learn", "mne", "pyriemann", "torch>=2.0", "braindecode",
+  "joblib", "matplotlib", "seaborn", "hydra-core", "omegaconf",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 150
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B"]
+ignore = ["E741", "B905"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff.lint.per-file-ignores]
+"scripts/make_tables.py" = ["E501"]  # LaTeX/Markdown table rows
+"scripts/check_paper_numbers.py" = ["E501"]
+"scripts/round3/*.py" = ["E501"]

@@ -1,0 +1,4 @@
+# OAS covariance -> tangent space at the training Riemannian mean -> ridge
+name: riemann
+feature: cov
+kw: {}

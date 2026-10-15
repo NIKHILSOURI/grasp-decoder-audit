@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{Leakage factor 2: selecting the 16 features most correlated with the target on all windows (test included) versus on training windows only.}
+\label{tab:selection}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lllcccc}
+\toprule
+Decoder & Split & Target & select on train & select on all & $\Delta R^2$ & $n_{>0}$ \\
+\midrule
+MLP & Subject & force & $-$0.12 & $-$0.10 & 0.017 & 8/12 \\
+MLP & Subject & pos z & $-$0.04 & $-$0.04 & 0.000 & 5/12 \\
+MLP & Trial & force & 0.04 & 0.05 & 0.004 & 8/12 \\
+MLP & Trial & pos z & 0.11 & 0.11 & 0.001 & 8/12 \\
+Ridge & Subject & force & $-$0.04 & $-$0.02 & 0.014 & 9/12 \\
+Ridge & Subject & pos z & 0.03 & 0.03 & $-$0.000 & 0/12 \\
+Ridge & Trial & force & 0.18 & 0.18 & 0.003 & 8/12 \\
+Ridge & Trial & pos z & 0.18 & 0.19 & 0.002 & 5/12 \\
+\bottomrule
+\end{tabular}
+\end{table}

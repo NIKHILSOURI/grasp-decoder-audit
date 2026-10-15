@@ -1,0 +1,4 @@
+# No-EEG baseline: mean cue-locked target curve of the training trials
+name: template
+feature: time
+kw: {}

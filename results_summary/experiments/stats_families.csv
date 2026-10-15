@@ -1,0 +1,43 @@
+family,family_size,contrast,raw_p,holm_p,n,side
+split inflation (Table I text),22,force/eegnet: shuffled vs trialwise,0.05224609375,0.15673828125,12,two-sided
+split inflation (Table I text),22,force/eegnet: trialwise vs subjectwise,0.00048828125,0.0107421875,12,two-sided
+split inflation (Table I text),22,force/forcemap: shuffled vs trialwise,0.00048828125,0.0107421875,12,two-sided
+split inflation (Table I text),22,force/forcemap: trialwise vs subjectwise,0.00341796875,0.01708984375,12,two-sided
+split inflation (Table I text),22,force/mlp: shuffled vs trialwise,0.00048828125,0.0107421875,12,two-sided
+split inflation (Table I text),22,force/mlp: trialwise vs subjectwise,0.00048828125,0.0107421875,12,two-sided
+split inflation (Table I text),22,force/ridge: shuffled vs trialwise,0.00048828125,0.0107421875,12,two-sided
+split inflation (Table I text),22,force/ridge: trialwise vs subjectwise,0.0068359375,0.02734375,12,two-sided
+split inflation (Table I text),22,force/riemann: shuffled vs trialwise,0.00048828125,0.0107421875,12,two-sided
+split inflation (Table I text),22,force/riemann: trialwise vs subjectwise,0.00048828125,0.0107421875,12,two-sided
+split inflation (Table I text),22,force/template: shuffled vs trialwise,0.5185546875,0.6787109375,12,two-sided
+split inflation (Table I text),22,force/template: trialwise vs subjectwise,0.0009765625,0.0107421875,12,two-sided
+split inflation (Table I text),22,kin/eegnet: shuffled vs trialwise,0.00048828125,0.0107421875,12,two-sided
+split inflation (Table I text),22,kin/eegnet: trialwise vs subjectwise,0.00048828125,0.0107421875,12,two-sided
+split inflation (Table I text),22,kin/mlp: shuffled vs trialwise,0.00048828125,0.0107421875,12,two-sided
+split inflation (Table I text),22,kin/mlp: trialwise vs subjectwise,0.00048828125,0.0107421875,12,two-sided
+split inflation (Table I text),22,kin/ridge: shuffled vs trialwise,0.00048828125,0.0107421875,12,two-sided
+split inflation (Table I text),22,kin/ridge: trialwise vs subjectwise,0.00048828125,0.0107421875,12,two-sided
+split inflation (Table I text),22,kin/riemann: shuffled vs trialwise,0.00048828125,0.0107421875,12,two-sided
+split inflation (Table I text),22,kin/riemann: trialwise vs subjectwise,0.00048828125,0.0107421875,12,two-sided
+split inflation (Table I text),22,kin/template: shuffled vs trialwise,0.33935546875,0.6787109375,12,two-sided
+split inflation (Table I text),22,kin/template: trialwise vs subjectwise,0.00048828125,0.0107421875,12,two-sided
+artifact ablation (E5),4,ridge/force: variant vs reference,0.01611328125,0.01611328125,12,two-sided
+artifact ablation (E5),4,ridge/pos_z: variant vs reference,0.00048828125,0.001953125,12,two-sided
+artifact ablation (E5),4,riemann/force: variant vs reference,0.00048828125,0.001953125,12,two-sided
+artifact ablation (E5),4,riemann/pos_z: variant vs reference,0.00048828125,0.001953125,12,two-sided
+leaky selection (E2),8,mlp/subjectwise/force: variant vs reference,0.1513671875,1.0,12,two-sided
+leaky selection (E2),8,mlp/subjectwise/pos_z: variant vs reference,0.20361328125,1.0,12,two-sided
+leaky selection (E2),8,mlp/trialwise/force: variant vs reference,0.17626953125,1.0,12,two-sided
+leaky selection (E2),8,mlp/trialwise/pos_z: variant vs reference,0.5185546875,1.0,12,two-sided
+leaky selection (E2),8,ridge/subjectwise/force: variant vs reference,0.04248046875,0.33984375,12,two-sided
+leaky selection (E2),8,ridge/subjectwise/pos_z: variant vs reference,1.0,1.0,12,two-sided
+leaky selection (E2),8,ridge/trialwise/force: variant vs reference,0.26611328125,1.0,12,two-sided
+leaky selection (E2),8,ridge/trialwise/pos_z: variant vs reference,0.90966796875,1.0,12,two-sided
+template + EEG (Table II),8,force/mlp/subjectwise: template+EEG vs template,0.30126953125,0.90380859375,12,two-sided
+template + EEG (Table II),8,force/mlp/trialwise: template+EEG vs template,0.1513671875,0.60546875,12,two-sided
+template + EEG (Table II),8,force/ridge/subjectwise: template+EEG vs template,0.38037109375,0.90380859375,12,two-sided
+template + EEG (Table II),8,force/ridge/trialwise: template+EEG vs template,0.791015625,0.90380859375,12,two-sided
+template + EEG (Table II),8,kin/mlp/subjectwise: template+EEG vs template,0.00048828125,0.00390625,12,two-sided
+template + EEG (Table II),8,kin/mlp/trialwise: template+EEG vs template,0.02099609375,0.1259765625,12,two-sided
+template + EEG (Table II),8,kin/ridge/subjectwise: template+EEG vs template,0.0771484375,0.3857421875,12,two-sided
+template + EEG (Table II),8,kin/ridge/trialwise: template+EEG vs template,0.00048828125,0.00390625,12,two-sided

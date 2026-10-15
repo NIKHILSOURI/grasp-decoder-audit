@@ -1,0 +1,27 @@
+# environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# dataset and derived caches (downloaded / rebuilt by `make data` and `make preprocess`)
+data/
+
+# experiment outputs (regenerated; a frozen copy lives in results_summary/)
+results/
+outputs/
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# personal terms for the anonymity scan (never commit)
+.anon_clues

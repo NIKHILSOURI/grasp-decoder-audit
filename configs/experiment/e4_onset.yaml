@@ -1,0 +1,7 @@
+# RQ4: causal grasp-onset detection
+name: e4_onset
+detectors: [lda, riemann]
+schemes: [trialwise, subjectwise]
+n_repeats: 3
+max_fa_per_min: 1.0   # operating point chosen on validation trials
+channel_check: true   # also run without occipital channels (visual-cue confound)

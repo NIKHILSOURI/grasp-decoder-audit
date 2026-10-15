@@ -1,0 +1,4 @@
+# LEAKY ON PURPOSE: within subject, shuffle windows, 7:2:1 (train, test, validation)
+name: shuffled
+leaky: true
+ratio: [0.7, 0.2, 0.1]

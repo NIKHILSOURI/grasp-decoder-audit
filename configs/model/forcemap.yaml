@@ -1,0 +1,4 @@
+# "In the style of" EEGForceMap: 9 channels, 100 ms / 50 ms windows, ERP + theta/mu PSD + ERD/S, PCA 95 %, MLP
+name: forcemap
+feature: forcemap
+kw: {max_epochs: 200, patience: 10, batch: 512}

@@ -1,0 +1,7 @@
+# RQ2: top-16 feature selection fit on all windows (leaky) vs training windows only
+name: e2_selection
+models: [ridge, mlp]
+schemes: [trialwise, subjectwise]
+targets: [force, pos_z]
+select_on: [all, train]
+k: 16

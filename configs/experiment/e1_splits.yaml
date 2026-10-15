@@ -1,0 +1,5 @@
+# RQ1: inflation from shuffled overlapping windows vs trial-, series- and subject-wise splits
+name: e1_splits
+datasets: [force, kin]
+models: [template, ridge, mlp, riemann, eegnet, forcemap]
+schemes: [shuffled, trialwise, serieswise, subjectwise]

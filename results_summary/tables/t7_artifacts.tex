@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{Validity check: removing frontal-polar and occipital channels (trial-wise split).}
+\label{tab:artifacts}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llccc}
+\toprule
+Decoder & Target & all channels & no Fp/occipital & $\Delta R^2$ \\
+\midrule
+Ridge & force & 0.26 & 0.21 & $-$0.052 \\
+Ridge & pos z & 0.32 & 0.29 & $-$0.029 \\
+Riemannian & force & 0.18 & 0.14 & $-$0.038 \\
+Riemannian & pos z & 0.28 & 0.22 & $-$0.058 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,186 @@
+location,quantity,printed,recomputed,status
+Table I,template force shuffled mean,0.53,0.5303,OK
+Table I,template force shuffled SD,0.09,0.0854,OK
+Table I,template force trialwise mean,0.52,0.5199,OK
+Table I,template force trialwise SD,0.09,0.0910,OK
+Table I,template force serieswise mean,0.51,0.5136,OK
+Table I,template force serieswise SD,0.12,0.1187,OK
+Table I,template force subjectwise mean,0.19,0.1915,OK
+Table I,template force subjectwise SD,0.33,0.3289,OK
+Table I,template pos shuffled mean,0.79,0.7944,OK
+Table I,template pos shuffled SD,0.10,0.1021,OK
+Table I,template pos trialwise mean,0.79,0.7891,OK
+Table I,template pos trialwise SD,0.10,0.1002,OK
+Table I,template pos serieswise mean,0.78,0.7812,OK
+Table I,template pos serieswise SD,0.12,0.1158,OK
+Table I,template pos subjectwise mean,0.55,0.5489,OK
+Table I,template pos subjectwise SD,0.16,0.1639,OK
+Table I,ridge force shuffled mean,0.35,0.3546,OK
+Table I,ridge force shuffled SD,0.07,0.0658,OK
+Table I,ridge force trialwise mean,0.26,0.2624,OK
+Table I,ridge force trialwise SD,0.12,0.1176,OK
+Table I,ridge force serieswise mean,0.24,0.2368,OK
+Table I,ridge force serieswise SD,0.09,0.0919,OK
+Table I,ridge force subjectwise mean,-0.02,-0.0232,OK
+Table I,ridge force subjectwise SD,0.23,0.2273,OK
+Table I,ridge pos shuffled mean,0.39,0.3931,OK
+Table I,ridge pos shuffled SD,0.11,0.1086,OK
+Table I,ridge pos trialwise mean,0.35,0.3462,OK
+Table I,ridge pos trialwise SD,0.09,0.0856,OK
+Table I,ridge pos serieswise mean,0.31,0.3079,OK
+Table I,ridge pos serieswise SD,0.08,0.0752,OK
+Table I,ridge pos subjectwise mean,0.06,0.0552,OK
+Table I,ridge pos subjectwise SD,0.19,0.1942,OK
+Table I,mlp force shuffled mean,0.49,0.4868,OK
+Table I,mlp force shuffled SD,0.03,0.0311,OK
+Table I,mlp force trialwise mean,0.05,0.0533,OK
+Table I,mlp force trialwise SD,0.03,0.0298,OK
+Table I,mlp force serieswise mean,0.04,0.0367,OK
+Table I,mlp force serieswise SD,0.04,0.0434,OK
+Table I,mlp force subjectwise mean,-0.14,-0.1409,OK
+Table I,mlp force subjectwise SD,0.19,0.1867,OK
+Table I,mlp pos shuffled mean,0.40,0.4014,OK
+Table I,mlp pos shuffled SD,0.06,0.0591,OK
+Table I,mlp pos trialwise mean,0.17,0.1681,OK
+Table I,mlp pos trialwise SD,0.07,0.0686,OK
+Table I,mlp pos serieswise mean,0.15,0.1498,OK
+Table I,mlp pos serieswise SD,0.07,0.0701,OK
+Table I,mlp pos subjectwise mean,-0.01,-0.0145,OK
+Table I,mlp pos subjectwise SD,0.09,0.0880,OK
+Table I,riemann force shuffled mean,0.38,0.3842,OK
+Table I,riemann force shuffled SD,0.05,0.0549,OK
+Table I,riemann force trialwise mean,0.18,0.1830,OK
+Table I,riemann force trialwise SD,0.08,0.0754,OK
+Table I,riemann force serieswise mean,0.14,0.1440,OK
+Table I,riemann force serieswise SD,0.07,0.0724,OK
+Table I,riemann force subjectwise mean,-0.23,-0.2266,OK
+Table I,riemann force subjectwise SD,0.32,0.3171,OK
+Table I,riemann pos shuffled mean,0.43,0.4273,OK
+Table I,riemann pos shuffled SD,0.08,0.0842,OK
+Table I,riemann pos trialwise mean,0.32,0.3217,OK
+Table I,riemann pos trialwise SD,0.10,0.0951,OK
+Table I,riemann pos serieswise mean,0.29,0.2905,OK
+Table I,riemann pos serieswise SD,0.09,0.0877,OK
+Table I,riemann pos subjectwise mean,-0.05,-0.0499,OK
+Table I,riemann pos subjectwise SD,0.15,0.1482,OK
+Table I,eegnet force shuffled mean,0.26,0.2564,OK
+Table I,eegnet force shuffled SD,0.10,0.0976,OK
+Table I,eegnet force trialwise mean,0.17,0.1733,OK
+Table I,eegnet force trialwise SD,0.10,0.0998,OK
+Table I,eegnet force serieswise mean,0.08,0.0828,OK
+Table I,eegnet force serieswise SD,0.06,0.0607,OK
+Table I,eegnet force subjectwise mean,-0.18,-0.1756,OK
+Table I,eegnet force subjectwise SD,0.33,0.3284,OK
+Table I,eegnet pos shuffled mean,0.44,0.4376,OK
+Table I,eegnet pos shuffled SD,0.09,0.0922,OK
+Table I,eegnet pos trialwise mean,0.39,0.3910,OK
+Table I,eegnet pos trialwise SD,0.09,0.0944,OK
+Table I,eegnet pos serieswise mean,0.34,0.3353,OK
+Table I,eegnet pos serieswise SD,0.09,0.0913,OK
+Table I,eegnet pos subjectwise mean,0.02,0.0164,OK
+Table I,eegnet pos subjectwise SD,0.17,0.1713,OK
+Table I,forcemap force shuffled mean,0.14,0.1375,OK
+Table I,forcemap force shuffled SD,0.03,0.0347,OK
+Table I,forcemap force trialwise mean,0.02,0.0221,OK
+Table I,forcemap force trialwise SD,0.04,0.0435,OK
+Table I,forcemap force serieswise mean,0.00,0.0025,OK
+Table I,forcemap force serieswise SD,0.06,0.0635,OK
+Table I,forcemap force subjectwise mean,-0.10,-0.1039,OK
+Table I,forcemap force subjectwise SD,0.17,0.1719,OK
+Table II,force ridge trialwise gain,+0.001,0.0007,OK
+Table II,force ridge trialwise residual R2,-0.03,-0.0265,OK
+Table II,force ridge trialwise n improved,7,7.0000,OK
+Table II,force ridge subjectwise gain,-0.022,-0.0215,OK
+Table II,force ridge subjectwise residual R2,-0.19,-0.1907,OK
+Table II,force ridge subjectwise n improved,5,5.0000,OK
+Table II,force mlp trialwise gain,-0.005,-0.0045,OK
+Table II,force mlp trialwise residual R2,-0.03,-0.0350,OK
+Table II,force mlp trialwise n improved,3,3.0000,OK
+Table II,force mlp subjectwise gain,-0.023,-0.0225,OK
+Table II,force mlp subjectwise residual R2,-0.21,-0.2075,OK
+Table II,force mlp subjectwise n improved,3,3.0000,OK
+Table II,pos ridge trialwise gain,+0.015,0.0155,OK
+Table II,pos ridge trialwise residual R2,0.06,0.0637,OK
+Table II,pos ridge trialwise n improved,12,12.0000,OK
+Table II,pos ridge subjectwise gain,+0.012,0.0117,OK
+Table II,pos ridge subjectwise residual R2,-0.11,-0.1096,OK
+Table II,pos ridge subjectwise n improved,9,9.0000,OK
+Table II,pos mlp trialwise gain,+0.006,0.0060,OK
+Table II,pos mlp trialwise residual R2,0.02,0.0160,OK
+Table II,pos mlp trialwise n improved,9,9.0000,OK
+Table II,pos mlp subjectwise gain,-0.025,-0.0250,OK
+Table II,pos mlp subjectwise residual R2,-0.22,-0.2167,OK
+Table II,pos mlp subjectwise n improved,0,0.0000,OK
+Table III,lda trialwise auc,0.83,0.8296,OK
+Table III,lda trialwise pre,13.9,13.8889,OK
+Table III,lda trialwise det_rate,0.19,0.1902,OK
+Table III,lda trialwise median_lead_ms,-50,-49.5000,OK
+Table III,lda trialwise fa_per_min,1.2,1.1900,OK
+Table III,lda trialwise cue_slope,0.35,0.3455,OK
+Table III,lda subjectwise auc,0.71,0.7087,OK
+Table III,lda subjectwise pre,4.7,4.7052,OK
+Table III,lda subjectwise det_rate,0.08,0.0805,OK
+Table III,lda subjectwise median_lead_ms,-16,-16.5000,OK
+Table III,lda subjectwise fa_per_min,1.2,1.1988,OK
+Table III,lda subjectwise cue_slope,0.30,0.2995,OK
+Table III,riemann trialwise auc,0.78,0.7794,OK
+Table III,riemann trialwise pre,21.5,21.5160,OK
+Table III,riemann trialwise det_rate,0.29,0.2877,OK
+Table III,riemann trialwise median_lead_ms,-113,-112.6667,OK
+Table III,riemann trialwise fa_per_min,3.0,3.0177,OK
+Table III,riemann trialwise cue_slope,0.20,0.2012,OK
+Table III,riemann subjectwise auc,0.68,0.6849,OK
+Table III,riemann subjectwise pre,10.0,9.9773,OK
+Table III,riemann subjectwise det_rate,0.13,0.1276,OK
+Table III,riemann subjectwise median_lead_ms,-186,-186.0000,OK
+Table III,riemann subjectwise fa_per_min,7.6,7.6422,OK
+Table III,riemann subjectwise cue_slope,0.35,0.3472,OK
+Table III,cue timer lead (ms),-315,-314.5000,OK
+Table III,cue timer strict Pre (\CUEPRE),1.00,0.9967,OK
+Table III,cue timer loose,1.00,0.9991,OK
+Results,"LDA AUC without occipital, trial",0.82,0.8204,OK
+Results,"LDA AUC without occipital, subject",0.71,0.7076,OK
+Results,MLP force shuffled - trialwise,0.43,0.4334,OK
+Results,its 95% CI,0.41 0.45,0.4102 0.4543,OK
+Results,"Holm p, 12/12 contrasts (MLP force shuffled vs trial)",0.011,0.0107,OK
+Results,"Holm p, EEGNet force shuffled vs trial",0.16,0.1567,OK
+Results,EEGNet force participants shuffled > trial,10,10.0000,OK
+Results,"Holm p, template force shuffled vs trial",0.68,0.6787,OK
+Results,"Holm p, template position shuffled vs trial",0.68,0.6787,OK
+Results,max participants where EEG beats template,2,2.0000,OK
+Results,template force variance explained (%),52,51.9928,OK
+Results,template position variance explained (%),79,78.9134,OK
+Blocked CV,"MLP force, 0.05-s blocks",0.49,0.4896,OK
+Blocked CV,"MLP force, 0.25-s blocks",0.08,0.0810,OK
+Blocked CV,"Riemannian force, 0.05-s",0.38,0.3826,OK
+Blocked CV,"Riemannian force, 8-s",0.18,0.1825,OK
+Blocked CV,"ridge force, 0.05-s",0.35,0.3534,OK
+Blocked CV,"ridge force, 8-s",0.30,0.3020,OK
+Blocked CV,test windows sharing samples at 0.25 s (%),98,97.9178,OK
+Blocked CV,near-duplicates at 0.05 s (%),91,90.8000,OK
+Blocked CV,near-duplicates at 0.25 s (%),28,28.0000,OK
+Blocked CV,test windows sharing samples at 8 s (%),3,2.6869,OK
+Purged blocked CV,purged MLP 0.25 s,-0.03,-0.0310,OK
+Purged blocked CV,purged MLP 1 s,0.06,0.0640,OK
+Purged blocked CV,purged MLP 4 s,0.06,0.0576,OK
+Purged blocked CV,purged ridge range,0.29 0.30,0.2871 0.3011,OK
+Purged blocked CV,training windows removed at 0.25 s (%),54,53.5799,OK
+Filtering sensitivity,ridge force change,+0.09,0.0900,OK
+Filtering sensitivity,ridge position change,+0.12,0.1241,OK
+Filtering sensitivity,ridge force whole-series,0.35,0.3524,OK
+Filtering sensitivity,ridge position whole-series,0.47,0.4702,OK
+Target mismatch,ridge trial force above chance,12,12.0000,OK
+Target mismatch,EEGNet trial force above chance,11,11.0000,OK
+Target mismatch,ridge trial force real vs null95,0.26 0.20,0.2624 0.2010,OK
+Target mismatch,subject-wise above chance range,7 11,7.0000 11.0000,OK
+Target mismatch,subject-wise Pearson r range,0.12 0.40,0.1232 0.4045,OK
+Target mismatch,"max null95 r, EEG decoders",0.57,0.5717,OK
+Target mismatch,"max null95 r, template",0.91,0.9109,OK
+Other,ablation drop range (CAR 32),0.03 0.06,0.0294 0.0578,OK
+Other,ablation drop range (CAR 25),0.03 0.07,0.0322 0.0664,OK
+Other,ablation max p,0.016,0.0161,OK
+Other,max selection gain,0.017,0.0169,OK
+Other,strict pre-onset range (%),4.7 21.5,4.7052 21.5160,OK
+Other,detected only after hand start range (%),2.8 7.3,2.7778 7.2505,OK
+Other,Table II CI position ridge trial,0.008 0.025,0.0078 0.0249,OK
+Other,Table II CI position ridge subject,0.001 0.021,0.0006 0.0214,OK

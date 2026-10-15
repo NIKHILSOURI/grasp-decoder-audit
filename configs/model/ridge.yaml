@@ -1,0 +1,5 @@
+# Lagged 0.1-3 Hz EEG (6 lags, 0-250 ms) -> standardise -> ridge; alpha per output on validation
+name: ridge
+feature: lagged
+alphas: {start: -2, stop: 4, num: 13}   # logspace
+kw: {}

@@ -1,0 +1,24 @@
+# Root config. Run one experiment with:  python scripts/run_experiment.py experiment=e1_splits
+defaults:
+  - experiment: e1_splits
+  - _self_
+
+seed: 0
+cache_dir: data/cache
+subjects: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+stride:            # window stride in samples at 100 Hz
+  default: 5       # 50 ms: template, ridge, mlp, riemann
+  eegnet: 10       # 100 ms
+repeats:           # repeats of the shuffled and trial-wise splits
+  default: 5
+  eegnet: 3        # budget reduction, see docs/DECISIONS.md
+  forcemap: 5
+n_series_folds: 3
+model_kw: {}       # filled from configs/model/*.yaml by the runner
+
+hydra:
+  run:
+    dir: results/${experiment.name}/${now:%Y%m%d-%H%M%S}
+  job:
+    chdir: false
+  output_subdir: hydra

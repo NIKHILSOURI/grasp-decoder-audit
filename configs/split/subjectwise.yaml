@@ -1,0 +1,4 @@
+# Leave one subject out; 2 validation subjects drawn from the rest
+name: subjectwise
+leaky: false
+n_val_subjects: 2

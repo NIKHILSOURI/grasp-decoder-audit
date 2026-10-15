@@ -1,0 +1,186 @@
+location,quantity,key,printed
+Table I,template force shuffled mean,T1|template|force|shuffled|mean,0.53
+Table I,template force shuffled SD,T1|template|force|shuffled|sd,0.09
+Table I,template force trialwise mean,T1|template|force|trialwise|mean,0.52
+Table I,template force trialwise SD,T1|template|force|trialwise|sd,0.09
+Table I,template force serieswise mean,T1|template|force|serieswise|mean,0.51
+Table I,template force serieswise SD,T1|template|force|serieswise|sd,0.12
+Table I,template force subjectwise mean,T1|template|force|subjectwise|mean,0.19
+Table I,template force subjectwise SD,T1|template|force|subjectwise|sd,0.33
+Table I,template pos shuffled mean,T1|template|pos|shuffled|mean,0.79
+Table I,template pos shuffled SD,T1|template|pos|shuffled|sd,0.10
+Table I,template pos trialwise mean,T1|template|pos|trialwise|mean,0.79
+Table I,template pos trialwise SD,T1|template|pos|trialwise|sd,0.10
+Table I,template pos serieswise mean,T1|template|pos|serieswise|mean,0.78
+Table I,template pos serieswise SD,T1|template|pos|serieswise|sd,0.12
+Table I,template pos subjectwise mean,T1|template|pos|subjectwise|mean,0.55
+Table I,template pos subjectwise SD,T1|template|pos|subjectwise|sd,0.16
+Table I,ridge force shuffled mean,T1|ridge|force|shuffled|mean,0.35
+Table I,ridge force shuffled SD,T1|ridge|force|shuffled|sd,0.07
+Table I,ridge force trialwise mean,T1|ridge|force|trialwise|mean,0.26
+Table I,ridge force trialwise SD,T1|ridge|force|trialwise|sd,0.12
+Table I,ridge force serieswise mean,T1|ridge|force|serieswise|mean,0.24
+Table I,ridge force serieswise SD,T1|ridge|force|serieswise|sd,0.09
+Table I,ridge force subjectwise mean,T1|ridge|force|subjectwise|mean,-0.02
+Table I,ridge force subjectwise SD,T1|ridge|force|subjectwise|sd,0.23
+Table I,ridge pos shuffled mean,T1|ridge|pos|shuffled|mean,0.39
+Table I,ridge pos shuffled SD,T1|ridge|pos|shuffled|sd,0.11
+Table I,ridge pos trialwise mean,T1|ridge|pos|trialwise|mean,0.35
+Table I,ridge pos trialwise SD,T1|ridge|pos|trialwise|sd,0.09
+Table I,ridge pos serieswise mean,T1|ridge|pos|serieswise|mean,0.31
+Table I,ridge pos serieswise SD,T1|ridge|pos|serieswise|sd,0.08
+Table I,ridge pos subjectwise mean,T1|ridge|pos|subjectwise|mean,0.06
+Table I,ridge pos subjectwise SD,T1|ridge|pos|subjectwise|sd,0.19
+Table I,mlp force shuffled mean,T1|mlp|force|shuffled|mean,0.49
+Table I,mlp force shuffled SD,T1|mlp|force|shuffled|sd,0.03
+Table I,mlp force trialwise mean,T1|mlp|force|trialwise|mean,0.05
+Table I,mlp force trialwise SD,T1|mlp|force|trialwise|sd,0.03
+Table I,mlp force serieswise mean,T1|mlp|force|serieswise|mean,0.04
+Table I,mlp force serieswise SD,T1|mlp|force|serieswise|sd,0.04
+Table I,mlp force subjectwise mean,T1|mlp|force|subjectwise|mean,-0.14
+Table I,mlp force subjectwise SD,T1|mlp|force|subjectwise|sd,0.19
+Table I,mlp pos shuffled mean,T1|mlp|pos|shuffled|mean,0.40
+Table I,mlp pos shuffled SD,T1|mlp|pos|shuffled|sd,0.06
+Table I,mlp pos trialwise mean,T1|mlp|pos|trialwise|mean,0.17
+Table I,mlp pos trialwise SD,T1|mlp|pos|trialwise|sd,0.07
+Table I,mlp pos serieswise mean,T1|mlp|pos|serieswise|mean,0.15
+Table I,mlp pos serieswise SD,T1|mlp|pos|serieswise|sd,0.07
+Table I,mlp pos subjectwise mean,T1|mlp|pos|subjectwise|mean,-0.01
+Table I,mlp pos subjectwise SD,T1|mlp|pos|subjectwise|sd,0.09
+Table I,riemann force shuffled mean,T1|riemann|force|shuffled|mean,0.38
+Table I,riemann force shuffled SD,T1|riemann|force|shuffled|sd,0.05
+Table I,riemann force trialwise mean,T1|riemann|force|trialwise|mean,0.18
+Table I,riemann force trialwise SD,T1|riemann|force|trialwise|sd,0.08
+Table I,riemann force serieswise mean,T1|riemann|force|serieswise|mean,0.14
+Table I,riemann force serieswise SD,T1|riemann|force|serieswise|sd,0.07
+Table I,riemann force subjectwise mean,T1|riemann|force|subjectwise|mean,-0.23
+Table I,riemann force subjectwise SD,T1|riemann|force|subjectwise|sd,0.32
+Table I,riemann pos shuffled mean,T1|riemann|pos|shuffled|mean,0.43
+Table I,riemann pos shuffled SD,T1|riemann|pos|shuffled|sd,0.08
+Table I,riemann pos trialwise mean,T1|riemann|pos|trialwise|mean,0.32
+Table I,riemann pos trialwise SD,T1|riemann|pos|trialwise|sd,0.10
+Table I,riemann pos serieswise mean,T1|riemann|pos|serieswise|mean,0.29
+Table I,riemann pos serieswise SD,T1|riemann|pos|serieswise|sd,0.09
+Table I,riemann pos subjectwise mean,T1|riemann|pos|subjectwise|mean,-0.05
+Table I,riemann pos subjectwise SD,T1|riemann|pos|subjectwise|sd,0.15
+Table I,eegnet force shuffled mean,T1|eegnet|force|shuffled|mean,0.26
+Table I,eegnet force shuffled SD,T1|eegnet|force|shuffled|sd,0.10
+Table I,eegnet force trialwise mean,T1|eegnet|force|trialwise|mean,0.17
+Table I,eegnet force trialwise SD,T1|eegnet|force|trialwise|sd,0.10
+Table I,eegnet force serieswise mean,T1|eegnet|force|serieswise|mean,0.08
+Table I,eegnet force serieswise SD,T1|eegnet|force|serieswise|sd,0.06
+Table I,eegnet force subjectwise mean,T1|eegnet|force|subjectwise|mean,-0.18
+Table I,eegnet force subjectwise SD,T1|eegnet|force|subjectwise|sd,0.33
+Table I,eegnet pos shuffled mean,T1|eegnet|pos|shuffled|mean,0.44
+Table I,eegnet pos shuffled SD,T1|eegnet|pos|shuffled|sd,0.09
+Table I,eegnet pos trialwise mean,T1|eegnet|pos|trialwise|mean,0.39
+Table I,eegnet pos trialwise SD,T1|eegnet|pos|trialwise|sd,0.09
+Table I,eegnet pos serieswise mean,T1|eegnet|pos|serieswise|mean,0.34
+Table I,eegnet pos serieswise SD,T1|eegnet|pos|serieswise|sd,0.09
+Table I,eegnet pos subjectwise mean,T1|eegnet|pos|subjectwise|mean,0.02
+Table I,eegnet pos subjectwise SD,T1|eegnet|pos|subjectwise|sd,0.17
+Table I,forcemap force shuffled mean,T1|forcemap|force|shuffled|mean,0.14
+Table I,forcemap force shuffled SD,T1|forcemap|force|shuffled|sd,0.03
+Table I,forcemap force trialwise mean,T1|forcemap|force|trialwise|mean,0.02
+Table I,forcemap force trialwise SD,T1|forcemap|force|trialwise|sd,0.04
+Table I,forcemap force serieswise mean,T1|forcemap|force|serieswise|mean,0.00
+Table I,forcemap force serieswise SD,T1|forcemap|force|serieswise|sd,0.06
+Table I,forcemap force subjectwise mean,T1|forcemap|force|subjectwise|mean,-0.10
+Table I,forcemap force subjectwise SD,T1|forcemap|force|subjectwise|sd,0.17
+Table II,force ridge trialwise gain,T2|force|ridge|trialwise|gain,+0.001
+Table II,force ridge trialwise residual R2,T2|force|ridge|trialwise|res,-0.03
+Table II,force ridge trialwise n improved,T2|force|ridge|trialwise|n,7
+Table II,force ridge subjectwise gain,T2|force|ridge|subjectwise|gain,-0.022
+Table II,force ridge subjectwise residual R2,T2|force|ridge|subjectwise|res,-0.19
+Table II,force ridge subjectwise n improved,T2|force|ridge|subjectwise|n,5
+Table II,force mlp trialwise gain,T2|force|mlp|trialwise|gain,-0.005
+Table II,force mlp trialwise residual R2,T2|force|mlp|trialwise|res,-0.03
+Table II,force mlp trialwise n improved,T2|force|mlp|trialwise|n,3
+Table II,force mlp subjectwise gain,T2|force|mlp|subjectwise|gain,-0.023
+Table II,force mlp subjectwise residual R2,T2|force|mlp|subjectwise|res,-0.21
+Table II,force mlp subjectwise n improved,T2|force|mlp|subjectwise|n,3
+Table II,pos ridge trialwise gain,T2|pos|ridge|trialwise|gain,+0.015
+Table II,pos ridge trialwise residual R2,T2|pos|ridge|trialwise|res,0.06
+Table II,pos ridge trialwise n improved,T2|pos|ridge|trialwise|n,12
+Table II,pos ridge subjectwise gain,T2|pos|ridge|subjectwise|gain,+0.012
+Table II,pos ridge subjectwise residual R2,T2|pos|ridge|subjectwise|res,-0.11
+Table II,pos ridge subjectwise n improved,T2|pos|ridge|subjectwise|n,9
+Table II,pos mlp trialwise gain,T2|pos|mlp|trialwise|gain,+0.006
+Table II,pos mlp trialwise residual R2,T2|pos|mlp|trialwise|res,0.02
+Table II,pos mlp trialwise n improved,T2|pos|mlp|trialwise|n,9
+Table II,pos mlp subjectwise gain,T2|pos|mlp|subjectwise|gain,-0.025
+Table II,pos mlp subjectwise residual R2,T2|pos|mlp|subjectwise|res,-0.22
+Table II,pos mlp subjectwise n improved,T2|pos|mlp|subjectwise|n,0
+Table III,lda trialwise auc,T3|lda|trialwise|auc,0.83
+Table III,lda trialwise pre,T3|lda|trialwise|pre,13.9
+Table III,lda trialwise det_rate,T3|lda|trialwise|det_rate,0.19
+Table III,lda trialwise median_lead_ms,T3|lda|trialwise|median_lead_ms,-50
+Table III,lda trialwise fa_per_min,T3|lda|trialwise|fa_per_min,1.2
+Table III,lda trialwise cue_slope,T3|lda|trialwise|cue_slope,0.35
+Table III,lda subjectwise auc,T3|lda|subjectwise|auc,0.71
+Table III,lda subjectwise pre,T3|lda|subjectwise|pre,4.7
+Table III,lda subjectwise det_rate,T3|lda|subjectwise|det_rate,0.08
+Table III,lda subjectwise median_lead_ms,T3|lda|subjectwise|median_lead_ms,-16
+Table III,lda subjectwise fa_per_min,T3|lda|subjectwise|fa_per_min,1.2
+Table III,lda subjectwise cue_slope,T3|lda|subjectwise|cue_slope,0.30
+Table III,riemann trialwise auc,T3|riemann|trialwise|auc,0.78
+Table III,riemann trialwise pre,T3|riemann|trialwise|pre,21.5
+Table III,riemann trialwise det_rate,T3|riemann|trialwise|det_rate,0.29
+Table III,riemann trialwise median_lead_ms,T3|riemann|trialwise|median_lead_ms,-113
+Table III,riemann trialwise fa_per_min,T3|riemann|trialwise|fa_per_min,3.0
+Table III,riemann trialwise cue_slope,T3|riemann|trialwise|cue_slope,0.20
+Table III,riemann subjectwise auc,T3|riemann|subjectwise|auc,0.68
+Table III,riemann subjectwise pre,T3|riemann|subjectwise|pre,10.0
+Table III,riemann subjectwise det_rate,T3|riemann|subjectwise|det_rate,0.13
+Table III,riemann subjectwise median_lead_ms,T3|riemann|subjectwise|median_lead_ms,-186
+Table III,riemann subjectwise fa_per_min,T3|riemann|subjectwise|fa_per_min,7.6
+Table III,riemann subjectwise cue_slope,T3|riemann|subjectwise|cue_slope,0.35
+Table III,cue timer lead (ms),cue_lead,-315
+Table III,cue timer strict Pre (\CUEPRE),cue_strict,1.00
+Table III,cue timer loose,cue_loose,1.00
+Results,"LDA AUC without occipital, trial",T3noocc|lda|trialwise,0.82
+Results,"LDA AUC without occipital, subject",T3noocc|lda|subjectwise,0.71
+Results,MLP force shuffled - trialwise,delta,0.43
+Results,its 95% CI,delta_ci,0.41 0.45
+Results,"Holm p, 12/12 contrasts (MLP force shuffled vs trial)",p|force|mlp|shuffled|trialwise,0.011
+Results,"Holm p, EEGNet force shuffled vs trial",p|force|eegnet|shuffled|trialwise,0.16
+Results,EEGNet force participants shuffled > trial,n_pos|force|eegnet|shuffled|trialwise,10
+Results,"Holm p, template force shuffled vs trial",p|force|template|shuffled|trialwise,0.68
+Results,"Holm p, template position shuffled vs trial",p|pos|template|shuffled|trialwise,0.68
+Results,max participants where EEG beats template,beat_template,2
+Results,template force variance explained (%),template_pct|force,52
+Results,template position variance explained (%),template_pct|pos,79
+Blocked CV,"MLP force, 0.05-s blocks",blk|force|mlp|0.05,0.49
+Blocked CV,"MLP force, 0.25-s blocks",blk|force|mlp|0.25,0.08
+Blocked CV,"Riemannian force, 0.05-s",blk|force|riemann|0.05,0.38
+Blocked CV,"Riemannian force, 8-s",blk|force|riemann|8.0,0.18
+Blocked CV,"ridge force, 0.05-s",blk|force|ridge|0.05,0.35
+Blocked CV,"ridge force, 8-s",blk|force|ridge|8.0,0.30
+Blocked CV,test windows sharing samples at 0.25 s (%),overlap_pct|force|0.25,98
+Blocked CV,near-duplicates at 0.05 s (%),neardup_pct|force|0.05,91
+Blocked CV,near-duplicates at 0.25 s (%),neardup_pct|force|0.25,28
+Blocked CV,test windows sharing samples at 8 s (%),overlap_pct|force|8.0,3
+Purged blocked CV,purged MLP 0.25 s,purged|mlp|0.25,-0.03
+Purged blocked CV,purged MLP 1 s,purged|mlp|1.0,0.06
+Purged blocked CV,purged MLP 4 s,purged|mlp|4.0,0.06
+Purged blocked CV,purged ridge range,purged_ridge_range,0.29 0.30
+Purged blocked CV,training windows removed at 0.25 s (%),purged_train_loss_pct|0.25,54
+Filtering sensitivity,ridge force change,filt|force|diff,+0.09
+Filtering sensitivity,ridge position change,filt|kin|diff,+0.12
+Filtering sensitivity,ridge force whole-series,filt|force|new,0.35
+Filtering sensitivity,ridge position whole-series,filt|kin|new,0.47
+Target mismatch,ridge trial force above chance,chance_n|ridge|trialwise|force,12
+Target mismatch,EEGNet trial force above chance,chance_n|eegnet|trialwise|force,11
+Target mismatch,ridge trial force real vs null95,chance_real_null|ridge|trialwise|force,0.26 0.20
+Target mismatch,subject-wise above chance range,chance_subject_range,7 11
+Target mismatch,subject-wise Pearson r range,r_subject_range,0.12 0.40
+Target mismatch,"max null95 r, EEG decoders",r_null_max|eeg,0.57
+Target mismatch,"max null95 r, template",r_null_max|template,0.91
+Other,ablation drop range (CAR 32),ablation_range,0.03 0.06
+Other,ablation drop range (CAR 25),car25_range,0.03 0.07
+Other,ablation max p,ablation_pmax,0.016
+Other,max selection gain,selection_max,0.017
+Other,strict pre-onset range (%),pre_range,4.7 21.5
+Other,detected only after hand start range (%),after_range,2.8 7.3
+Other,Table II CI position ridge trial,gain_ci|pos|ridge|trialwise,0.008 0.025
+Other,Table II CI position ridge subject,gain_ci|pos|ridge|subjectwise,0.001 0.021

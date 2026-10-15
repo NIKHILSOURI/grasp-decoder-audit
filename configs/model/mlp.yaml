@@ -1,0 +1,4 @@
+# Log band power (theta, alpha, beta, low gamma) on FC/C/CP/P channels -> MLP (128, 64)
+name: mlp
+feature: bandpower
+kw: {max_epochs: 200, patience: 10, batch: 512}

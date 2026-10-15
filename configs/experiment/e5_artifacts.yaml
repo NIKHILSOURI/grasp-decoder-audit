@@ -1,0 +1,4 @@
+# Validity: all channels vs without frontal-polar (Fp1, Fp2) and occipital (O1, Oz, O2, PO9, PO10)
+name: e5_artifacts
+models: [ridge, riemann]
+targets: [force, pos_z]

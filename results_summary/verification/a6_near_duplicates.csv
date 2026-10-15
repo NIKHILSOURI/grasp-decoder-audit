@@ -1,0 +1,15 @@
+dataset,block_s,frac_near_duplicate
+force,0.05,0.908
+force,0.25,0.28
+force,0.5,0.144
+force,1.0,0.07
+force,2.0,0.032
+force,4.0,0.013
+force,8.0,0.004
+kin,0.05,0.909
+kin,0.25,0.281
+kin,0.5,0.144
+kin,1.0,0.069
+kin,2.0,0.032
+kin,4.0,0.014
+kin,8.0,0.004

@@ -1,0 +1,142 @@
+
+====================================================================================================
+A3  MLP force: shuffled - trial-wise (paired, unrounded)
+====================================================================================================
+per-participant shuffled: [0.5212 0.4489 0.5512 0.5139 0.4874 0.4748 0.4707 0.4661 0.4466 0.5011
+ 0.4654 0.4939]
+per-participant trialwise: [0.0518 0.0533 0.057  0.0638 0.0217 0.0237 0.1235 0.0682 0.0346 0.0848
+ 0.0243 0.0333]
+mean shuffled 0.4868  mean trialwise 0.0533
+paired mean difference 0.4334; bootstrap 95% CI over participants [0.4102 0.4543] (10,000 resamples of the 12 per-participant differences)
+
+====================================================================================================
+A4  Wilcoxon family used for Holm correction in the inflation table (t2)
+====================================================================================================
+family size = 22 tests
+dataset    model              contrast  n_pos   p_raw  p_holm
+  force   eegnet    shuffled-trialwise     10 0.05225 0.15674
+  force   eegnet trialwise-subjectwise     12 0.00049 0.01074
+  force forcemap    shuffled-trialwise     12 0.00049 0.01074
+  force forcemap trialwise-subjectwise     11 0.00342 0.01709
+  force      mlp    shuffled-trialwise     12 0.00049 0.01074
+  force      mlp trialwise-subjectwise     12 0.00049 0.01074
+  force    ridge    shuffled-trialwise     12 0.00049 0.01074
+  force    ridge trialwise-subjectwise     11 0.00684 0.02734
+  force  riemann    shuffled-trialwise     12 0.00049 0.01074
+  force  riemann trialwise-subjectwise     12 0.00049 0.01074
+  force template    shuffled-trialwise      6 0.51855 0.67871
+  force template trialwise-subjectwise     11 0.00098 0.01074
+    kin   eegnet    shuffled-trialwise     12 0.00049 0.01074
+    kin   eegnet trialwise-subjectwise     12 0.00049 0.01074
+    kin      mlp    shuffled-trialwise     12 0.00049 0.01074
+    kin      mlp trialwise-subjectwise     12 0.00049 0.01074
+    kin    ridge    shuffled-trialwise     12 0.00049 0.01074
+    kin    ridge trialwise-subjectwise     12 0.00049 0.01074
+    kin  riemann    shuffled-trialwise     12 0.00049 0.01074
+    kin  riemann trialwise-subjectwise     12 0.00049 0.01074
+    kin template    shuffled-trialwise      8 0.33936 0.67871
+    kin template trialwise-subjectwise     12 0.00049 0.01074
+
+exact two-sided Wilcoxon p for 12/12 positive: 0.00048828125
+
+E5 artifact ablation (paired_wilcoxon, raw p; Holm over these 4 shown alongside):
+  model target  mean_diff       p  p_holm
+  ridge  force   -0.05168 0.01611 0.01611
+  ridge  pos_z   -0.02945 0.00049 0.00195
+riemann  force   -0.03845 0.00049 0.00195
+riemann  pos_z   -0.05783 0.00049 0.00195
+
+E7 Table II stars (raw p from paired Wilcoxon; Holm over the 8 rows shown alongside):
+dataset model      scheme     gain  n_better       p  p_holm8
+  force   mlp subjectwise -0.02255         3 0.30127  0.90381
+  force   mlp   trialwise -0.00453         3 0.15137  0.60547
+  force ridge subjectwise -0.02153         5 0.38037  0.90381
+  force ridge   trialwise  0.00074         7 0.79102  0.90381
+    kin   mlp subjectwise -0.02499         0 0.00049  0.00391
+    kin   mlp   trialwise  0.00603         9 0.02100  0.12598
+    kin ridge subjectwise  0.01165         9 0.07715  0.38574
+    kin ridge   trialwise  0.01547        12 0.00049  0.00391
+
+====================================================================================================
+A6  Blocked CV: no gap; train/test sizes; fraction of test windows overlapping a training window
+====================================================================================================
+training / test windows per participant-fold (mean, min, max over the 12 participants):
+                 n_train_mean  n_train_min  n_train_max  n_test_mean
+dataset block_s                                                     
+force   0.05          17245.0        14890        20706       4927.0
+        0.25          17242.0        14838        20719       4930.0
+        0.50          17233.0        14870        20739       4925.0
+        1.00          17237.0        14969        20693       4937.0
+        2.00          17233.0        14748        21094       4942.0
+        4.00          17315.0        14985        21150       4926.0
+        8.00          17468.0        14900        21392       4683.0
+kin     0.05          31072.0        26861        39206       8878.0
+        0.25          31068.0        26893        39230       8894.0
+        0.50          31046.0        26789        39278       8904.0
+        1.00          31060.0        26679        39357       8891.0
+        2.00          31048.0        27003        39148       8921.0
+        4.00          31031.0        26790        39110       8963.0
+        8.00          31100.0        26829        39377       8758.0
+
+fraction of test windows sharing >= 1 EEG sample with a training window (mean over participants):
+dataset  block_s  frac_test_overlapping_train_mean   min   max
+  force     0.05                             1.000 1.000 1.000
+  force     0.25                             0.979 0.975 0.986
+  force     0.50                             0.860 0.830 0.895
+  force     1.00                             0.617 0.581 0.659
+  force     2.00                             0.284 0.267 0.317
+  force     4.00                             0.111 0.088 0.143
+  force     8.00                             0.027 0.000 0.062
+    kin     0.05                             1.000 1.000 1.000
+    kin     0.25                             0.978 0.972 0.985
+    kin     0.50                             0.866 0.850 0.883
+    kin     1.00                             0.614 0.597 0.635
+    kin     2.00                             0.286 0.267 0.305
+    kin     4.00                             0.119 0.086 0.150
+    kin     8.00                             0.033 0.000 0.069
+shuffled split (force): fraction of test windows overlapping a training window = 1.000
+shuffled split (kin): fraction of test windows overlapping a training window = 1.000
+
+====================================================================================================
+A10 Dataset counts
+====================================================================================================
+force: 295623 windows (stride 50 ms), 2040 trials
+kin: 532662 windows (stride 50 ms), 3528 trials
+trials with targets per participant: {1: 294, 2: 294, 3: 294, 4: 294, 5: 294, 6: 294, 7: 294, 8: 294, 9: 294, 10: 294, 11: 294, 12: 294}
+median reaction time per participant (ms): {1: 318, 2: 648, 3: 318, 4: 312, 5: 535, 6: 426, 7: 772, 8: 376, 9: 392, 10: 408, 11: 421, 12: 490}
+maximum overlap between consecutive stored windows: 4.676 s
+GF ~ a*FZ1 + b*FZ2 + c (series 1 of every participant): [(1, np.float64(0.5), np.float64(0.5), np.float64(-0.0)), (2, np.float64(0.5), np.float64(0.5), np.float64(-0.0)), (3, np.float64(0.5), np.float64(0.5), np.float64(0.0)), (4, np.float64(0.5), np.float64(0.5), np.float64(0.0)), (5, np.float64(0.5), np.float64(0.5), np.float64(0.0)), (6, np.float64(0.5), np.float64(0.5), np.float64(-0.0)), (7, np.float64(0.5), np.float64(0.5), np.float64(-0.0)), (8, np.float64(0.5), np.float64(0.5), np.float64(0.0)), (9, np.float64(0.5), np.float64(0.5), np.float64(0.0)), (10, np.float64(0.5), np.float64(0.5), np.float64(-0.0)), (11, np.float64(0.5), np.float64(0.5), np.float64(-0.0)), (12, np.float64(0.5), np.float64(0.5), np.float64(0.0))]
+
+====================================================================================================
+A12 Series-wise folds: series per fold and weight conditions in each test fold
+====================================================================================================
+dataset  subject  fold test_series val_series    train_series test_weights test_block_types  n_test_trials
+  force        1 S1/f0      [1, 8]        [9]          [4, 7]    [1, 2, 4]              [1]             68
+  force        1 S1/f1      [4, 9]        [7]          [1, 8]    [1, 2, 4]              [1]             68
+  force        1 S1/f2         [7]        [8]       [1, 4, 9]    [1, 2, 4]              [1]             34
+    kin        1 S1/f0   [1, 4, 7]        [8] [2, 3, 5, 6, 9]    [1, 2, 4]              [1]            102
+    kin        1 S1/f1   [2, 5, 8]        [3] [1, 4, 6, 7, 9]    [1, 2, 4]        [1, 2, 3]             96
+    kin        1 S1/f2   [3, 6, 9]        [7] [1, 2, 4, 5, 8]    [1, 2, 4]        [1, 2, 3]             96
+
+all test folds contain all three weights: False
+kinematics test folds containing all three block types (weight/friction/mixed): 14 of 36
+
+share of 165/330/660 g trials in each force test fold (participant 1):
+ fold test_series weight_share_165_330_660
+S1/f0      [1, 8]  [0.32, 0.35, 0.0, 0.32]
+S1/f1      [4, 9]  [0.32, 0.32, 0.0, 0.35]
+S1/f2         [7]  [0.35, 0.32, 0.0, 0.32]
+
+====================================================================================================
+A13 Other numbers
+====================================================================================================
+max mean selection gain: 0.0169
+max number of participants in which an EEG decoder beats the template (any split, any target): 2
+
+====================================================================================================
+A14 arXiv comment fields
+====================================================================================================
+http://arxiv.org/abs/2508.07677v1 | comment: 7 pages, 5 figures, 2 tables, selected for presentation in special session of System, Man, Cybernetics (SMC) conference, 2025. The codes developed for this paper is available in the GitHub repository given in the conclusion section of this paper
+http://arxiv.org/abs/2607.24081v2 | comment: 6 pages, 3 figures, 2 tables, selected to be presented at Brain-Machine Interface (BMI) Systems Session, IEEE International Conference on Systems, Man, and Cybernetics (IEEE SMC 2026)
+
+wrote ['a12_series_folds.csv', 'a4_holm_family.csv', 'a6_blocked_overlap.csv', 'a6_blocked_sizes.csv', 'a6_near_duplicates.csv']

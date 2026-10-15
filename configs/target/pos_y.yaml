@@ -1,0 +1,4 @@
+name: pos_y
+dataset: kin
+units: cm
+description: "wrist (sensor 4) position, all series"

@@ -1,0 +1,5 @@
+dataset,filtering,ridge_r2
+force,per-trial (paper),0.262351415240586
+force,whole-series,0.3523537881265442
+kin,per-trial (paper),0.3461629848315147
+kin,whole-series,0.4702206567010652

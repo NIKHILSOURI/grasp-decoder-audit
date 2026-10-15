@@ -1,0 +1,25 @@
+# Conda alternative to `make setup` (the reference runs used a pip venv; versions below are the ones used).
+name: gaudit
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu124
+      - torch==2.6.0
+      - torchaudio==2.6.0
+      - numpy==2.4.6
+      - scipy==1.17.1
+      - scikit-learn==1.9.1
+      - pandas
+      - mne==1.13.2
+      - pyriemann==0.12
+      - braindecode==1.8.1
+      - joblib
+      - matplotlib
+      - seaborn
+      - hydra-core
+      - omegaconf
+      - pytest
+      - ruff
+      - -e .

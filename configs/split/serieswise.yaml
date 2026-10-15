@@ -1,0 +1,4 @@
+# Within subject, whole recording series held out (3 folds); added to the spec, see DECISIONS.md
+name: serieswise
+leaky: false
+n_folds: 3

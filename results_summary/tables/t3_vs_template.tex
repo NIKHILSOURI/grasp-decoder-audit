@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{EEG decoder minus the no-EEG cue-locked template ($R^2$), with the number of participants where the EEG decoder is better.}
+\label{tab:template}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lcccccccc}
+\toprule
+Decoder & Shuffled$^\dagger$ & Trial & Series & Subject & Shuffled$^\dagger$ & Trial & Series & Subject \\
+\midrule
+Ridge & $-$0.18 (0/12) & $-$0.26 (0/12) & $-$0.28 (0/12) & $-$0.21 (2/12) & $-$0.40 (0/12) & $-$0.44 (0/12) & $-$0.47 (0/12) & $-$0.49 (0/12) \\
+MLP & $-$0.04 (2/12) & $-$0.47 (0/12) & $-$0.48 (0/12) & $-$0.33 (1/12) & $-$0.39 (0/12) & $-$0.62 (0/12) & $-$0.63 (0/12) & $-$0.56 (0/12) \\
+Riemannian & $-$0.15 (1/12) & $-$0.34 (0/12) & $-$0.37 (1/12) & $-$0.42 (0/12) & $-$0.37 (0/12) & $-$0.47 (0/12) & $-$0.49 (0/12) & $-$0.60 (0/12) \\
+EEGNet & $-$0.27 (1/12) & $-$0.35 (0/12) & $-$0.43 (1/12) & $-$0.37 (1/12) & $-$0.36 (0/12) & $-$0.40 (0/12) & $-$0.45 (0/12) & $-$0.53 (0/12) \\
+ForceMap-style & $-$0.39 (0/12) & $-$0.50 (0/12) & $-$0.51 (0/12) & $-$0.30 (1/12) & -- & -- & -- & -- \\
+\bottomrule
+\end{tabular}
+\end{table}

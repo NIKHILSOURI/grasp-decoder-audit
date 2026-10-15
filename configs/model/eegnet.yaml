@@ -1,0 +1,4 @@
+# braindecode EEGNet, regression head (1 output for force, 3 for x/y/z), AdamW, AMP
+name: eegnet
+feature: raw
+kw: {max_epochs: 40, patience: 8, batch: 256, lr: 0.001}
